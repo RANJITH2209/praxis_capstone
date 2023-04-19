@@ -53,7 +53,7 @@ st.markdown("""
 # Create the search bar
 topic = st.text_input("")
 
-width = 600
+width = 700
 height =300
 
 Topic_list = ["KNN","Linear Regression","Logistic Regression","Decision Tree","p-value",
@@ -221,6 +221,7 @@ try:
 		html_code1 = f'<iframe width="{width}" height={height}" src="https://www.youtube.com/embed/{youtube_vd_id1}" frameborder="1" allowfullscreen></iframe>'
 		col1.markdown(html_code1, unsafe_allow_html=True)
 		col2.subheader(Meta_Data[topic][1][i])
+		st.write("")
 except:
 	st.write("")
 
