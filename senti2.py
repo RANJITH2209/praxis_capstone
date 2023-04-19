@@ -48,8 +48,8 @@ st.markdown("""
 # Create the search bar
 topic = st.text_input("")
 
-width = 350
-height =200
+width = 500
+height =300
 
 Topic_list = ["KNN","Linear Regression","Logistic Regression","Decision Tree","p-value",
 	      "Confidence intervals","Normal distribution","Gradient descent",
