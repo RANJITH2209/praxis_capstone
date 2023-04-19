@@ -275,7 +275,7 @@ if (topic in Topic_list) and (topic != ""):
 
 
 
-col1
+# col1
 col1.header("SentiMinds FrameWork")
 # col2.header("Youtube Results")
 
