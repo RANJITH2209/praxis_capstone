@@ -49,7 +49,7 @@ st.markdown("""
 topic = st.text_input("")
 
 width = 600
-height =250
+height =275
 
 Topic_list = ["KNN","Linear Regression","Logistic Regression","Decision Tree","p-value",
 	      "Confidence intervals","Normal distribution","Gradient descent",
