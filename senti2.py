@@ -26,8 +26,13 @@ add_bg_from_url()
 
 
 st.markdown("<h1 style='font-family: cursive; text-align: center;'>Team SentiMinds</h1>", unsafe_allow_html=True)
+# st.markdown(
+#     "<h1 style='text-align: center;'><img src='https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Youtube-icon.png' height='50'/> Sentiment Based Youtube Results</h1>",
+#     unsafe_allow_html=True
+# )
+
 st.markdown(
-    "<h1 style='text-align: center;'><img src='https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Youtube-icon.png' height='50'/> Sentiment Based Youtube Results</h1>",
+    "<h1 style='text-align: center;'><img src='https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Youtube-icon.png' height='50'/>SentiTube</h1>",
     unsafe_allow_html=True
 )
 
@@ -207,8 +212,8 @@ Meta_Data["confusion matrix"] = cm
 
 if (topic in Topic_list) and (topic != ""):
 	st.write("Results fetched")
-if (topic != ""):  
-	st.header("SentiMinds FrameWork")
+# if (topic != ""):  
+# 	st.header("SentiMinds FrameWork")
 try:
 	for i in range(3):
 		col1,col2 = st.columns(2)
