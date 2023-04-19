@@ -216,8 +216,8 @@ if (topic in Topic_list) and (topic != ""):
 # 	st.header("SentiMinds FrameWork")
 try:
 	for i in range(3):
-# 		col1,col2 = st.columns(2)
-		col1, col2 = st.columns([2,4])
+# 		col1,col2,empty = st.columns(3)
+# 		col1, col2 = st.columns([2,4])
 		youtube_vd_id1 = Meta_Data[topic][0][i] 
 		html_code1 = f'<iframe width="{width}" height={height}" src="https://www.youtube.com/embed/{youtube_vd_id1}" frameborder="1" allowfullscreen></iframe>'
 		col1.markdown(html_code1, unsafe_allow_html=True)
