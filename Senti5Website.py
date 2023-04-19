@@ -275,20 +275,20 @@ if (topic in Topic_list) and (topic != ""):
 
 
 
-col1 = st.columns(1)
-col1.header("SentiMinds FrameWork")
+# col1 = st.columns(1)
+st.title("SentiMinds FrameWork")
 # col2.header("Youtube Results")
 
 
 
 for i in range(3):
 
-	col1 = st.columns(1)
+# 	col1 = st.columns(1)
 
 	youtube_vd_id1 = Meta_Data[topic][0][i] 
 	html_code1 = f'<iframe width="{width}" height={height}" src="https://www.youtube.com/embed/{youtube_vd_id1}" frameborder="1" allowfullscreen></iframe>'
-	col1.markdown(html_code1, unsafe_allow_html=True)
-	col1.subheader(Meta_Data[topic][1][i])
+	st.markdown(html_code1, unsafe_allow_html=True)
+	st.subheader(Meta_Data[topic][1][i])
 
 
 # 	youtube_vd_id2 = Meta_Data[topic][2][i]
