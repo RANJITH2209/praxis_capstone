@@ -59,11 +59,11 @@ if (topic not in Topic_list) and (topic != ""):
 if topic in Topic_list:
 	st.write("Fetching results, Please wait...")
   
-  Meta_Data = {}
-  UTubeKNNVidID = ['CJjSPCslxqQ', 'HVXime0nQeI', '4HKqjENq9OU']
-  UTubeKNNTitle = ['K-Nearest Neighbor Classification ll KNN Classification Explained with Solved Example in Hindi',
- 'StatQuest: K-nearest neighbors, Clearly Explained',
- 'KNN Algorithm In Machine Learning | KNN Algorithm Using Python | K Nearest Neighbor | Simplilearn']
+Meta_Data = {}
+UTubeKNNVidID = ['CJjSPCslxqQ', 'HVXime0nQeI', '4HKqjENq9OU']
+UTubeKNNTitle = ['K-Nearest Neighbor Classification ll KNN Classification Explained with Solved Example in Hindi',
+'StatQuest: K-nearest neighbors, Clearly Explained',
+'KNN Algorithm In Machine Learning | KNN Algorithm Using Python | K Nearest Neighbor | Simplilearn']
 Senti5KNNVidID = ['4HKqjENq9OU', 'CJjSPCslxqQ', 'IPqZKn_cMts']
 Senti5KNNTitle = ['KNN Algorithm In Machine Learning | KNN Algorithm Using Python | K Nearest Neighbor | Simplilearn',
  'K-Nearest Neighbor Classification ll KNN Classification Explained with Solved Example in Hindi',
