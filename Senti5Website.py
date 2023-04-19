@@ -40,7 +40,7 @@ add_bg_from_url()
 
 st.markdown("<h1 style='font-family: cursive; text-align: center;'>Team SentiMinds</h1>", unsafe_allow_html=True)
 st.markdown(
-    "<h1 style='text-align: center;'><img src='https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Youtube-icon.png' height='50'/> Sentiment Based Youtube Results</h1>",
+    "<h1 style='text-align: center;'><img src='https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Youtube-icon.png' height='50'/> SentiTube </h1>",
     unsafe_allow_html=True
 )
 
@@ -276,7 +276,7 @@ if (topic in Topic_list) and (topic != ""):
 
 
 # col1 = st.columns(1)
-st.title("SentiMinds FrameWork")
+# st.title("SentiMinds FrameWork")
 # col2.header("Youtube Results")
 
 
